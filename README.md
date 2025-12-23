@@ -31,3 +31,10 @@ pip install mysql-connector-python
 2. Ensure MySQL is running locally
 3. Run the main script:
 python main.py
+
+## Project Structure
+
+- `main.py` – Entry point of the application
+- `db_setup.py` – Database and table initialization
+- `admin.py` – Admin operations (add/update/remove products)
+- `customer.py` – Customer operations and billing
